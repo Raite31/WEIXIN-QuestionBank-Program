@@ -1,0 +1,24 @@
+<!--引用template对象，用于渲染选项-->
+<import src="../../../template/template.wxml"/>
+<!--滑块组件-->
+<view class="content">
+  <swiper indicator-dots="true">
+    <view wx:for="{{indexs}}" wx:key="index">
+      <swiper-item class="swiper-item">
+        您选择的答案
+        <view class="userselects">【{{userselect[index].select}}】</view>
+        <!--试题题目-->
+        <view class="title">{{index+1}}.{{result.test[index].title}}</view>
+          <!--选项-->
+          <label wx:for="{{result.test[index].items}}" class="radio" wx:key="index">
+            <!--is表示要使用的模板的名称；data表示需要传递给模板的数据-->
+            <template is="examItem" data="{{item}}"/> 
+          </label>
+        <view>正确答案
+          <text class="result">【{{result.test[index].result}}】</text>
+        </view>
+        <button class="addMistake" bindtap="addMistake" data-type="" data-index="{{index}}">加入错题本</button>
+      </swiper-item>
+    </view>
+  </swiper>
+</view>

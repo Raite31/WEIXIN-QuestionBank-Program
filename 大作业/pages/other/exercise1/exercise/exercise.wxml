@@ -1,0 +1,13 @@
+<!--考试页面-->
+<view class="content">
+  <!--考题题目-->
+  <view class="title">{{index+1}}.{{test1[index].title}}</view>
+  <radio-group bindchange="radioChange">
+    <label class="radio" wx:for="{{test1[index].items}}" wx:key="index">
+      <radio>{{item.value}}</radio> 
+    </label>
+  </radio-group>
+  <!--正确答案，先隐藏-->
+  <view class="answer" style="opacity:{{opacity}}">{{test1[index].result}}</view>
+</view>
+<button class="exam-btn" bindtap="exam">下一题</button>

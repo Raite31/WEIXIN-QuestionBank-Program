@@ -1,0 +1,10 @@
+<view class="contant" wx:for="{{result}}" wx:key="index">
+  <view class="title">{{index+1}}.{{result[index].title}}</view>
+  <view class="option">选项：</view>
+  <label class="radio" wx:for="{{result[index].radio}}" wx:key="index">
+      <view class="radio">{{item.value}}</view> 
+  </label>
+  <view class="select">我的答案：【{{result[index].select}}】</view>
+  <view class="answer">正确答案：【{{result[index].answer}}】</view>
+  <view class="line">--------------------------------------------</view>
+</view>

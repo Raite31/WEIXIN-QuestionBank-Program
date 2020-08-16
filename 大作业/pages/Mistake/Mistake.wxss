@@ -1,0 +1,28 @@
+view{
+  margin-top: 20rpx;
+}
+
+.option{
+  margin-left: 20rpx;
+  color: darkgrey;
+}
+
+.radio{
+  display: block;
+  margin-left: 10rpx;
+}
+
+.select{
+  margin-left: 20rpx;
+  color: coral;
+}
+
+.answer{
+  margin-bottom: 50rpx;
+  margin-left: 20rpx;
+  color: rgb(70, 236, 70);
+}
+
+.line{
+  color: rgb(16, 16, 243);
+}

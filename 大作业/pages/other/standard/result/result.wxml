@@ -1,0 +1,8 @@
+<!--考试结果页面-->
+<!--logo-->
+<image class="logo" src="/images/hook.png"></image>
+<!--描述和按钮-->
+<view class="content">
+  <text>提交成功！如果想要查看考试结果，请点击下方按钮</text>
+  <button bindtap="queryResult">查看答题情况</button>
+</view>

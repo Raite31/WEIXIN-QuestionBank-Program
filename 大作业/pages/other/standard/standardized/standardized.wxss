@@ -1,0 +1,18 @@
+@import "../../../template/template.wxss";
+
+.top{
+  text-align: center;
+  background-color: cornflowerblue;
+}
+
+.title {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.exam-btn {
+  width: 90%;
+  position: fixed;
+  bottom: 20rpx;
+  left: 40rpx;
+}

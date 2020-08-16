@@ -1,0 +1,6 @@
+<view>
+  <view wx:for="{{test1}}" wx:key="index">
+    <view class="title">{{index+1}}.{{test1[index].title}}</view>
+    <view class="result">{{test1[index].result}}</view>
+  </view>
+</view>

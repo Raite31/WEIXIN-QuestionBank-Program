@@ -1,0 +1,11 @@
+@import "style/iconfont.wxss";
+button{
+  width: 90%;
+  background-color: aqua;
+}
+
+.title{
+  width: 90%;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}

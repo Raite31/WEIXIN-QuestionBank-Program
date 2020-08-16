@@ -1,0 +1,4 @@
+<template name="examItem">  <!--设置模板的名字-->
+  <radio value="{{item.name}}"/>
+  <text class="exam-item">{{item.value}}</text>
+</template>

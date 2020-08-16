@@ -1,0 +1,15 @@
+@import "../../../template/template.wxss";
+
+.radio{
+  display: block;
+}
+
+.content{
+  height: 1000rpx;
+}
+
+.answer{
+  margin-left: 20rpx;
+  margin-top: 50rpx;
+  color: darkorange;
+}

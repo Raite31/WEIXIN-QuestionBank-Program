@@ -1,0 +1,15 @@
+<!--引用template对象，用于渲染选项-->
+<import src="../../../template/template.wxml"/>
+<!--考试页面-->
+<view class="content">
+<!--考题-->
+  <view class="top">{{test1.name}}</view>
+  <view class="title">{{index+1}}.{{test1.test[index].title}}</view>
+  <radio-group bindchange="radioChange">
+    <label class="radio" wx:for="{{test1.test[index].items}}" wx:key="index">
+      <!--is表示使用具体的模板的名称；data表示需要传递给模板的数据-->
+      <template is="examItem" data="{{item}}"/> 
+    </label>
+  </radio-group>
+</view>
+<button class="exam-btn" bindtap="exam">下一题</button>

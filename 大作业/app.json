@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/rank/rank",
+    "pages/Mistake/Mistake",
+    "pages/other/exercise1/exercise/exercise",
+    "pages/other/exercise1/result/result",
+    "pages/other/study/study",
+    "pages/other/standard/standardized/standardized",
+    "pages/other/standard/result/result",
+    "pages/other/standard/resultBook/resultBook"
+  ],
+
+  "window": {
+    "navigationBarBackgroundColor": "#808080",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Hello题库",
+    "backgroundTextStyle": "light"
+  },
+  
+  "tabBar": {
+    "color": "#646464",
+    "selectedStyle": "#33CCFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "images/mode.png",
+        "selectedIconPath": "images/mode1.png",
+        "pagePath": "pages/main/main",
+        "text": "模式"
+      },
+      {
+        "iconPath": "images/rank.png",
+        "selectedIconPath": "images/rank1.png",
+        "pagePath": "pages/rank/rank",
+        "text": "排名"
+      },
+      {
+        "iconPath": "images/mistake.png",
+        "selectedIconPath": "images/mistake1.png",
+        "pagePath": "pages/Mistake/Mistake",
+        "text": "错题本"
+      }
+    ]
+  },
+
+  "sitemapLocation": "sitemap.json"
+}

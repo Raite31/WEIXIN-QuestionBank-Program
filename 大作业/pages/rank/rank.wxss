@@ -1,0 +1,20 @@
+.top{
+  text-align: center;
+  color: white;
+}
+
+.content{
+  background-color:gainsboro;
+  opacity: 0.9;
+}
+
+.nameee{
+  background-color: paleturquoise;
+  
+}
+
+.nameeee{
+  border: 1px solid gainsboro;
+  padding: 10rpx;
+  margin-bottom: 20rpx;
+}

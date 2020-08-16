@@ -1,0 +1,107 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"coverView": true,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.5.0",
+	"appid": "wx6cf97a66802819c3",
+	"projectname": "%E5%A4%A7%E4%BD%9C%E4%B8%9A",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "考试",
+					"pathName": "pages/other/standard/standardized/standardized",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "考试结果页面",
+					"pathName": "pages/other/result/result",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "考试详情",
+					"pathName": "pages/other/standard/resultBook/resultBook",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "错题本",
+					"pathName": "pages/Mistake/Mistake",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "排名",
+					"pathName": "pages/rank/rank",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "答题模式",
+					"pathName": "pages/other/exercise/exercise",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

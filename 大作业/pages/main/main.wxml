@@ -1,0 +1,5 @@
+  <label>
+    <view class="exercise" style="background-image :url('/images/exercise.png'); background-size:100% 100%" bindtap="exercise">答题模式</view>
+    <view class="study" style="background-image :url('/images/study.png'); background-size:100% 100%" bindtap="exercise" bindtap="study">学习模式</view>
+    <view class="standardized" style="background-image :url('/images/standardized.png'); background-size:100% 100%" bindtap="exercise" bindtap="standardized">考试模式</view>
+  </label>

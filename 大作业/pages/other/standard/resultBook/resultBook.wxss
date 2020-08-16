@@ -1,0 +1,32 @@
+@import "../../../template/template.wxss";
+
+swiper {
+  height: 1000rpx;
+}
+
+.userselects {
+  color: cadetblue;
+  font-weight: bold;
+}
+
+.swiper-item {
+  margin-left: 20rpx;
+  width: 85%;
+  height: 1000rpx;
+}
+
+.result {
+  color: red;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 60rpx;
+}
+
+.addMistake{
+  background-color: chartreuse;
+  bottom: 80rpx;
+  position: fixed;
+
+}

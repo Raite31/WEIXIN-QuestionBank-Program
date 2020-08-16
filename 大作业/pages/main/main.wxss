@@ -1,0 +1,25 @@
+/* 整体页面 */
+page{
+  height: 100%;
+}
+label{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* 各模式按钮 */
+label>view{
+  height: 31%;
+  margin-top: 7px;
+  border: 1rpx solid gray;
+  display: flex;
+  align-items: center;  /*设置子项（即 字）位于容器纵轴中心*/
+  justify-content: center;  /* 设置子项（即 字）位于容器横轴中心 */
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: rgb(56, 163, 224);
+}
+
+
